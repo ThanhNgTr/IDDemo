@@ -1,0 +1,24 @@
+Elasticsearch là gì ?
+	ElasticSearch là một cổ máy giúp giải quyết việc tìm kiếm là công cụ 
+	phân tích và tìm kiếm phân tán, có khả năng giải quyết một số lượng 
+	lớn các trường hợp sử dụng. Elasticsearch được xây dựng để hoạt động như 
+	một server cloud theo cơ chế của RESTful, phát triển bằng ngôn ngữ java
+Kibana là gì ?
+	Kibana là một nền tảng phân tích hiển thị dữ liệu từ 
+	Elasticsearch một cách trực quan dễ sử dụng
+serilog là gì, các mức độ log trong asp.net core và cách sử dụng?
+    	Serilog là thư viện để tạo log cho .NET, Nó có hỗ trợ cho nhiều phần chìm khác nhau, như SQL, tệp,...
+      Một số tính năng của Serilog như:
+      Hỗ trợ ghi log có cấu trúc, cho phép coi nhật ký là tập dữ liệu thay vì văn bản
+      Tương tích với các hệ thống và ứng dụng không đồng bộ
+Khi dùng cùng với Elasitcsreach sẽ trả ra kết quả chính xác, nhanh chóng
+6 mức độ Log trong asp.net core:
+        Trace (0): Chứa các thông điệp chi tiết nhất. Những tin nhắn này có thể chứa dữ liệu ứng dụng nhạy cảm. Các thông báo này bị tắt theo mặc định và không được bật trong sản phẩm.
+        Debug (1): Dùng cho debug và quá trình phát triển
+        Infomation (3): Theo dõi luồng chung của ứng dụng. Có thể có giá trị lâu dài.
+        Warning (4): Đối với các sự kiện bất thường hoặc bất ngờ. Thường bao gồm các lỗi hoặc điều kiện không khiến ứng dụng bị lỗi.
+        Error (5): Đối với các lỗi và ngoại lệ không thể xử lý. Các thông báo này cho biết lỗi trong hoạt động hoặc yêu cầu hiện tại, không phải lỗi trên toàn bộ ứng dụng.
+        Critical (6): Đối với những hỏng hóc cần được chú ý ngay lập tức. Ví dụ: kịch bản mất dữ liệu, hết dung lượng đĩa.
+        None (0): Chỉ định danh mục ghi nhật ký không ghi messages.
+
+
